@@ -1,0 +1,28 @@
+/* font.css */
+:root {
+    /* Base font size (assumed to be 16px, or 1rem) */
+    --base-font-size: 1rem; /* 16px equivalent */
+    
+    /* Font Sizes */
+    --font-size-xs: 0.75rem; /* 12px equivalent */
+    --font-size-sm: 0.875rem; /* 14px equivalent */
+    --font-size-md: 1rem; /* 16px equivalent */
+    --font-size-lg: 1.25rem; /* 20px equivalent */
+    --font-size-xl: 1.5rem; /* 24px equivalent */
+    --font-size-2xl: 2rem; /* 32px equivalent */
+    
+    /* Line Heights */
+    --line-height-sm: 1.2rem; /* For tight text (19.2px equivalent) */
+    --line-height-md: 1.5rem; /* Normal text (24px equivalent) */
+    --line-height-lg: 2rem; /* For large headers (32px equivalent) */
+    
+    /* Font Weights */
+    --font-weight-normal: 400;
+    --font-weight-medium: 600;
+    --font-weight-bold: 700;
+  
+    /* Letter Spacing */
+    --letter-spacing-sm: 0.05rem; /* 0.8px equivalent */
+    --letter-spacing-lg: 0.1rem; /* 1.6px equivalent */
+}
+  
