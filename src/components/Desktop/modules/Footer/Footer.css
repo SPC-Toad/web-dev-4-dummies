@@ -1,0 +1,123 @@
+@import '../../../styles/styles.css';
+
+:root {
+    --xp-footer-height: 5vh;
+    --xp-footer-shadow: -1px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+#footer-container {
+    width: 100%;
+    height: var(--xp-footer-height);
+    display: flex;
+    justify-content: space-between;
+    overflow-y: visible;
+    background-color: var(--xp-footer-right-background-color);
+    color: var(--xp-footer-text-color);
+    position: relative;
+}
+
+/* pop-up */
+#nav-container {
+    position: absolute;
+    background-color: aliceblue;
+    width: 25vw;
+    min-width: 20rem;
+    height: 60vh;
+    margin-top: -60vh;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Header of the nav pop up */
+#nav-header-container {
+    width: 100%;
+    height: 13vh;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#user-logo {
+    width: 4rem;
+    height: 4rem;
+    margin-left: var(--spacing-sm);
+    margin-right: var(--spacing-md);
+    border: 2px solid var(--xp-tab-border-color);
+    border-radius: 5px;
+}
+
+#username-text {
+
+}
+
+/* Body of the nav pop up */
+#nav-body-container {
+    width: 100%;
+    height: 40vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-body-half-container{
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Bottom of the nav pop up */
+#nav-button-container {
+    width: 100%;
+    height: 7vh;
+    background-color: brown;
+}
+
+
+
+
+/* The footer */
+#start-container {
+    width: 7rem;
+    height: var(--xp-footer-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--xp-success-color);
+    border-radius: 0 20% 20% 0;
+}
+
+#windows-logo {
+    margin-left: var(--spacing-neg-sm);
+    margin-right: var(--spacing-sm);
+    height: 3vh;
+    background-color: transparent;
+}
+
+#start-text {
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-lg);
+    font-style: italic;
+    text-shadow: var(--text-shadow-strong);
+}
+
+#clock-container {
+    width: 7rem;
+    height: var(--xp-footer-height);
+    box-shadow: var(--xp-footer-shadow);
+}
+
+
+#clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: var(--xp-footer-height);
+    background-color: var(--xp-footer-background-color);
+}

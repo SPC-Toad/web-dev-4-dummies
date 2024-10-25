@@ -1,0 +1,46 @@
+/* color.css :root */
+:root {
+  /* Windows XP Primary Colors */
+  --xp-primary-color: #3a6ea5;  /* XP Taskbar and Window Title Blue */
+  --xp-secondary-color: #99cc00;  /* XP Start Button Green */
+  --xp-accent-color: #ffcc00;  /* XP Yellow/Gold Accent */
+  
+  /* Background Colors */
+  --xp-background-color: #cfe8fc;  /* Desktop background blue */
+  --xp-window-background-color: #ffffff;  /* Inside window background (white) */
+  --xp-sidebar-background-color: #d6e3ef;  /* Sidebar or inactive window background */
+  
+  /* Text Colors */
+  --xp-text-color: #000000;  /* Default black text */
+  --xp-text-muted-color: #666666;  /* Muted gray text */
+  --xp-text-highlight-color: #ffffff;  /* White text for highlighted items */
+  
+  /* System Alerts */
+  --xp-error-color: #ff0000;  /* Red for errors */
+  --xp-warning-color: #ffcc00;  /* Yellow for warnings */
+  --xp-success-color: #008000;  /* Green for success messages */
+
+  /* Button Colors (e.g., start button) */
+  --xp-button-background: #e5f1fb; /* Light blue for button background */
+  --xp-button-hover-background: #d0e4f5; /* Slightly darker on hover */
+  --xp-button-text: #000000; /* Button text color */
+  
+  /* Footer (Taskbar) Area */
+  --xp-footer-background-color: #3a6ea5;  /* Main taskbar blue */
+  --xp-footer-text-color: #ffffff;  /* White text for taskbar items (e.g., clock) */
+  --xp-footer-right-background-color: #20558a;  /* Darker blue for the right side (system tray) */
+  
+  /* Start Button */
+  --xp-start-button-background-color: #99cc00;  /* Start button green */
+  --xp-start-button-text-color: #ffffff;  /* White text on the Start button */
+  
+  /* Tab Area */
+  --xp-tab-background-color: #e0e7ef;  /* Light grayish blue for tabs */
+  --xp-tab-active-background-color: #ffffff;  /* White for the active tab */
+  --xp-tab-border-color: #cccccc;  /* Light gray border between tabs */
+  --xp-tab-text-color: #000000;  /* Black text in tab area */
+
+  /* Borders and Dividers */
+  --xp-border-color: #666666;  /* Border for panels, dividers, etc. */
+  --xp-divider-color: #cccccc;  /* Light divider color */
+}

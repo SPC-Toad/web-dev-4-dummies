@@ -1,33 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-
-:root {
-    --color-black: #171717;
-    --color-grey-line: #cdcdcd4a;
-    --color-font: #FFFFFF;
-    --color-sub-font: #E9E9E9;
-    --color-button: #FF1414;
-    --title-font-size: 4em; /* 40px */
-    --header-topic-font-size: 1.3em; /* 32px */
-    --header2-topic-font-size: 2.5em; /* 32px */
-    --normal-text-font-size: 1em; /* 16px */
-    --sub-text-font-size: 0.875em; /* 14px */
-    --button-text-font-size: 1.125em; /* 18px */
-    --bottom-border: .3rem;
-    --normal-weight-font: 400;
-    --bold-font: 700;
-}
-
 a {
     text-decoration: none !important;
 }
 
 *,body {
-    scrollbar-width: none;
     margin: 0;
     padding: 0;
-    background-color: var(--color-black);
-    color: var(--color-font);
-    font-size: var(--normal-text-font-size);
-    font-family: "Inconsolata";
-    font-weight: var(--normal-weight-font);
-  }
+    font-family: "Tahoma", "Segoe UI", Verdana, sans-serif;
+}
