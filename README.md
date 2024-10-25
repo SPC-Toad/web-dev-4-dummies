@@ -54,5 +54,12 @@ git push origin <your-branch-name>
 ```
 Again, replace <your-branch-name> with the name of your branch.
 
+
+## Switch to the Main Branch
+To switch back to the main branch, use this command:
+```bash
+git checkout main
+```
+
 ## Working on a project
 Please 'git pull' if possible to be updated.
