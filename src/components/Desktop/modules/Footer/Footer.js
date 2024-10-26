@@ -4,6 +4,8 @@ import './Footer.css'
 // image
 import xpLogo from '../../../assets/xp-logo-no-word.png';
 import pepe from '../../../assets/pepe.jpg'
+import logOff from '../../../assets/xp-logoff.png'
+import shutdown from '../../../assets/xp-shutoff.png'
 
 function Footer() {
   const [time, setTime] = useState(new Date());
@@ -19,22 +21,24 @@ function Footer() {
 
   return (
     <div id='footer-container'>
-      {/* Make a nav */}
-      {nav &&
-          (<div id='nav-container'>
+      {
+        nav &&
+        (
+          <div id='nav-container'>
             <div id='nav-header-container'>
               <img id='user-logo' src={pepe} alt='womp womp'/>
               <div id='username-text'>Administrator</div>
             </div>
+            <hr id='nav-divider' />
             <div id='nav-body-container'>
-              <div id='nav-body-half-container'>
+              <div id='nav-body-left-container'>
                 <img id='user-logo' src={pepe} alt='womp womp'/>
                 <img id='user-logo' src={pepe} alt='womp womp'/>
                 <img id='user-logo' src={pepe} alt='womp womp'/>
                 <img id='user-logo' src={pepe} alt='womp womp'/>
                 <img id='user-logo' src={pepe} alt='womp womp'/>
               </div>
-              <div id='nav-body-half-container'>
+              <div id='nav-body-right-container'>
                 <img id='user-logo' src={pepe} alt='womp womp'/>
                 <img id='user-logo' src={pepe} alt='womp womp'/>
                 <img id='user-logo' src={pepe} alt='womp womp'/>
@@ -42,11 +46,21 @@ function Footer() {
                 <img id='user-logo' src={pepe} alt='womp womp'/>
               </div>
             </div>
-            <div id='nav-button-container'></div>
-          </div>)
-        }
+            <div id='nav-buttons-container'>
+              <div id='nav-button-container'>
+                <img id='nav-button' src={logOff} alt='womp womp'/>
+                <div id='nav-button-text'>Log Off</div>
+              </div>
+              <div id='nav-button-container'>
+                <img id='nav-button' src={shutdown} alt='womp womp'/>
+                <div id='nav-button-text'>Turn Off</div>
+              </div>
+            </div>
+          </div>
+        )
+      }
       <div id='start-container' onClick={handleNav}>
-        <img id='windows-logo' src={xpLogo} alt='womp-womp'/>
+        <img id='footer-windows-logo' src={xpLogo} alt='womp-womp'/>
         <div id='start-text'>start</div>
       </div>
       <div id='clock-container'>

@@ -19,27 +19,24 @@
   --xp-error-color: #ff0000;  /* Red for errors */
   --xp-warning-color: #ffcc00;  /* Yellow for warnings */
   --xp-success-color: #008000;  /* Green for success messages */
-
-  /* Button Colors (e.g., start button) */
-  --xp-button-background: #e5f1fb; /* Light blue for button background */
-  --xp-button-hover-background: #d0e4f5; /* Slightly darker on hover */
-  --xp-button-text: #000000; /* Button text color */
   
   /* Footer (Taskbar) Area */
-  --xp-footer-background-color: #3a6ea5;  /* Main taskbar blue */
+  --xp-footer-background-color: #2156D5;  /* Main taskbar blue */
+  --xp-footer-system-background-color: #118EE8;  /* right system taskbar blue */
   --xp-footer-text-color: #ffffff;  /* White text for taskbar items (e.g., clock) */
-  --xp-footer-right-background-color: #20558a;  /* Darker blue for the right side (system tray) */
   
-  /* Start Button */
-  --xp-start-button-background-color: #99cc00;  /* Start button green */
-  --xp-start-button-text-color: #ffffff;  /* White text on the Start button */
-  
+  --xp-footer-nav-background-color: radial-gradient(circle at bottom center, #418CE8, #3784E3, #1D5AC8);  /* 1D5AC8 for the darkest part lightest part 418CE8 */
+  --xp-footer-nav-left-background-color: #FFFFFF;  /* 1D5AC8 for the darkest part lightest part 418CE8 */
+  --xp-footer-nav-right-background-color: #D3E5FA;  /* 1D5AC8 for the darkest part lightest part 418CE8 */
+  --xp-footer-nav-divider-color: linear-gradient(90deg, #FFFFFF 1%, #DD9D83 50%, #FFFFFF 99%);
+
+
   /* Tab Area */
   --xp-tab-background-color: #e0e7ef;  /* Light grayish blue for tabs */
-  --xp-tab-active-background-color: #ffffff;  /* White for the active tab */
-  --xp-tab-border-color: #cccccc;  /* Light gray border between tabs */
+  --xp-tab-top-tab-color: #7B9BE1;  /* Light gray border between tabs */
+  --xp-tab-side-border-color: #6678D8;  /* Light gray border between tabs */
   --xp-tab-text-color: #000000;  /* Black text in tab area */
-
+  
   /* Borders and Dividers */
   --xp-border-color: #666666;  /* Border for panels, dividers, etc. */
   --xp-divider-color: #cccccc;  /* Light divider color */
