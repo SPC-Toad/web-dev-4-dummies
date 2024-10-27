@@ -1,0 +1,29 @@
+@import '../../../styles/styles.css';
+
+:root {
+
+}
+
+#code-container {
+    background-color: #333;
+    width: 100%;
+    min-width: 20rem;
+    height: fit-content;
+    border-radius: 5px;
+    transform-style: preserve-3d;
+}
+
+#code-header {
+    display: flex;
+    align-items: center;
+    padding-left: var(--spacing-sm);
+    background-color: #191919;
+    border-radius: 5px 5px 0 0 ;
+    height: 3vh;
+}
+
+
+#code-content {
+    display: flex;
+    align-content: center;
+}

@@ -34,7 +34,7 @@
     position: absolute;
     background-color: transparent !important;
     width: var(--xp-nav-width);
-    min-width: 30rem;
+    min-width: 20rem;
     max-width: 40rem;
     height: var(--xp-nav-height);
     margin-top: calc(-1*var(--xp-nav-height)); /* - height to view it above the footer */
@@ -87,7 +87,8 @@
     width: 50%;
     height: var(--xp-nav-body-height);
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
     background-color: var(--xp-footer-nav-left-background-color);
     align-items: center;
 }
@@ -96,12 +97,35 @@
     width: 50%;
     height: var(--xp-nav-body-height);
     display: flex;
+    flex-direction: column;
+    justify-content: start;
     align-items: center;
-    flex-wrap: wrap;
     background-color: var(--xp-footer-nav-right-background-color);
 }
 
+#nav-body-item-container {
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: var(--spacing-md);
+}
 
+#nav-body-item-icon {
+    object-fit: cover;
+    width: 4rem;
+    aspect-ratio: 1/1;
+    height: auto;
+}
+
+#nav-body-item-title {
+    padding-left: var(--spacing-md);
+    text-decoration: none;
+    color: var(--xp-text-color);
+}
 
 /* Bottom of the nav pop up */
 #nav-buttons-container {
