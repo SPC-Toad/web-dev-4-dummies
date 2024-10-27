@@ -1,10 +1,27 @@
 import React from 'react'
 import './Tab.css'
+import Footer from '../Footer/Footer'
 
-function Tab() {
+function Tab({ icon ,  title , children }) {
   return (
     <div id='tab-container'>
-        Tab
+      <div id='tab-frame-container'>
+        <div id='tab-components-container'>
+          <div id='tab-header-container'>
+            <div id='tab-header-detatil'>
+              <img id='tab-icon' src={icon} alt='womp womp'/>
+              <div id='tab-title-text'>{title}</div>
+            </div>
+            <div id="tab-header-button-container">
+              <div class="tab-button" id="minimize-button"></div>
+              <div class="tab-button" id="maximize-button"></div>
+              <a href='/home'><div class="tab-button" id="close-button"></div></a>
+            </div>
+          </div>
+          <div id='tab-content-container'>{children}</div>
+        </div>
+      </div>
+      <Footer />
     </div>
   )
 }

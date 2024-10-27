@@ -33,9 +33,9 @@
 
   /* Tab Area */
   --xp-tab-background-color: #e0e7ef;  /* Light grayish blue for tabs */
-  --xp-tab-top-tab-color: #7B9BE1;  /* Light gray border between tabs */
-  --xp-tab-side-border-color: #6678D8;  /* Light gray border between tabs */
-  --xp-tab-text-color: #000000;  /* Black text in tab area */
+  --xp-tab-top-tab-color: #0054E5;  /* Light gray border between tabs */
+  --xp-tab-side-border-color: #00009E;  /* Light gray border between tabs */
+  --xp-tab-text-color: #FFFFFF;  /* Black text in tab area */
   
   /* Borders and Dividers */
   --xp-border-color: #666666;  /* Border for panels, dividers, etc. */

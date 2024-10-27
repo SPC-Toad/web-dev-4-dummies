@@ -24,7 +24,7 @@
     z-index: 1;
 }
 
-#logo-container {
+#home-logo-container {
     width: 100%;
     height: 95vh;
     background-color: rgba(0, 0, 0, .8);
@@ -32,10 +32,26 @@
     position: relative;
     display: flex;
     align-items: end;
+    flex-wrap: wrap;
+}
+
+#home-program-container {
+    width: 6rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#program-title {
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
 }
 
 #logo {
     width: 4rem;
     height: 4rem;
-    padding: 1rem;
+    margin-bottom: 0.5rem;
 }
