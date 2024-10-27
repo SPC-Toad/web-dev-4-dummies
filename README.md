@@ -28,7 +28,7 @@ npm install
 ```
 This command will download and set up everything you need to run the project.
 
-## How to Upload Your Work to GitHub
+## How to Upload Your Work to GitHub (IMPORTANT! DOING THIS WRONG MAY LEAD TO SCRAPING THE PROJECT)
 Step 1: Create a New Branch
 Before making changes, it's best practice to create a new branch for your work. To create and switch to a new branch, use this command:
 ```bash
@@ -63,3 +63,77 @@ git checkout main
 
 ## Working on a project
 Please 'git pull' if possible to be updated.
+
+
+
+
+
+
+# So what am I supposed to do?
+
+You are now going to make a tutorial for your topic. 
+- HTML
+- CSS
+- Javascript
+- Python (Kim)
+- C (Kim)
+
+## Ok what am I looking at tho?
+
+If you go to src --> components --> Desktop, you will see all the pages and modules folder. 
+You have to go to YOUR TOPIC folder (e.g. HTML CSS JS PYTHON Clang) and complete the assignment.
+
+## Where is {topic}.html? Aren't we supposed to have html?
+
+We are using "jsx" file type. This will combine javascript and html into one file.
+
+## Let's break down what we are doing in JSX!
+
+Let's take an example jsx. 
+This is snippet of HTML.jsx:
+```js
+import html from '../../assets/html.png'
+
+function HTML() {
+  return (
+    <Tab icon={html} title={"Hypertext Markup Language (HTML)"}>
+        {/* CODE HERE */}
+        {/* THIS IS WHERE HTML GOES */}
+    </Tab>
+  )
+}
+
+export default HTML
+```
+
+There is function HTML(). When function HTML is called, then it will return:
+```js
+<Tab icon={html} title={"Hypertext Markup Language (HTML)"}>
+    {/* CODE HERE */}
+    {/* THIS IS WHERE HTML GOES */}
+</Tab>
+```
+
+## Where do we code your javascript?
+You code it right between the function and return.
+```js
+function HTML() {
+    // This is where JS code goes
+    return (
+        // some HTML Tags here
+    );
+}
+```
+
+## What the hell is this language? Is this javascript?
+
+Yes, but not exactly like javascript.
+You need to learn react hook. 
+Read about react hook's objective.
+Then focus on learning "useState" "useEffect" "useRef". These are the most commonly used react hook (you dont really need more than that).
+
+## Question?
+
+Just let me know, we can meet up before class or after. 
+
+
