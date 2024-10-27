@@ -46,13 +46,13 @@ function Footer() {
                   <img id='nav-body-item-icon' src={css} alt='womp womp'/>
                   <div id='nav-body-item-title'>Cascading Style Sheets</div>
                 </a>
-                <a href='./js' id='nav-body-item-container'>
+                <a href='./JS' id='nav-body-item-container'>
                   <img id='nav-body-item-icon' src={js} alt='womp womp'/>
                   <div id='nav-body-item-title'>JavaScript</div>
                 </a>
               </div>
               <div id='nav-body-right-container'>
-                <a href='./python' id='nav-body-item-container'>
+                <a href='./PYTHON' id='nav-body-item-container'>
                   <img id='nav-body-item-icon' src={python} alt='womp womp'/>
                   <div id='nav-body-item-title'>Python</div>
                 </a>

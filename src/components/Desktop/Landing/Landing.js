@@ -12,7 +12,7 @@ function Landing() {
     useEffect(() => {
         const bootloader = setTimeout(() => {
             navigate('/home');
-        }, 10000); // 10 seconds
+        }, 15000); // 10 seconds
 
         return () => clearTimeout(bootloader); // Cleanup timeout if component unmounts
     }, [navigate]);
