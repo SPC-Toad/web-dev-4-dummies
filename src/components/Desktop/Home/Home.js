@@ -32,11 +32,11 @@ function Home() {
             <img id='logo' src={css} alt='womp womp'/>
             <div id='program-title'>CSS</div>
           </a>
-          <a href='./js' id='home-program-container'>
+          <a href='./JS' id='home-program-container'>
             <img id='logo' src={js} alt='womp womp'/>
             <div id='program-title'>JS</div>
           </a>
-          <a href='./python' id='home-program-container'>
+          <a href='./PYTHON' id='home-program-container'>
             <img id='logo' src={python} alt='womp womp'/>
             <div id='program-title'>Python</div>
           </a>
