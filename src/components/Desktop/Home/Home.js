@@ -6,6 +6,7 @@ import background from '../../assets/xp-background.png'
 import c from '../../assets/c.png'
 import html from '../../assets/html.png'
 import css from '../../assets/css.png'
+import react from '../../assets/reactjs.png'
 import js from '../../assets/js.png'
 import python from '../../assets/python.png'
 
@@ -31,6 +32,10 @@ function Home() {
           <a href='./CSS' id='home-program-container'>
             <img id='logo' src={css} alt='womp womp'/>
             <div id='program-title'>CSS</div>
+          </a>
+          <a href='./REACT' id='home-program-container'>
+            <img id='logo' src={react} alt='womp womp'/>
+            <div id='program-title'>React JS</div>
           </a>
           <a href='./JS' id='home-program-container'>
             <img id='logo' src={js} alt='womp womp'/>
