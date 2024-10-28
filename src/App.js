@@ -4,6 +4,7 @@ import Home from './components/Desktop/Home/Home.js';
 import Landing from './components/Desktop/Landing/Landing.js';
 import C from './components/Desktop/Clang/C.js';
 import Python from './components/Desktop/Python/Python.js';
+import REACTJS from './components/Desktop/ReactJS/ReactJS.js';
 import JS from './components/Desktop/JS/JS.js';
 import CSS from './components/Desktop/CSS/CSS.js';
 import HTML from './components/Desktop/HTML/HTML.js';
@@ -18,6 +19,7 @@ function App() {
         <Route path='/C' element={<C />} />
         <Route path='/HTML' element={<HTML />} />
         <Route path='/CSS' element={<CSS />} />
+        <Route path='/REACT' element={<REACTJS />} />
         <Route path='/JS' element={<JS />} />
         <Route path='/PYTHON' element={<Python />} />
       </Routes>
@@ -37,6 +39,7 @@ function TitleUpdater() {
       '/C': 'C Language',
       '/HTML': 'HTML',
       '/CSS': 'CSS',
+      '/REACT': 'REACT',
       '/JS': 'JavaScript',
       '/PYTHON': 'Python',
     };
