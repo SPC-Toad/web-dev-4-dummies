@@ -40,4 +40,7 @@
   /* Borders and Dividers */
   --xp-border-color: #666666;  /* Border for panels, dividers, etc. */
   --xp-divider-color: #cccccc;  /* Light divider color */
+
+  --xp-bluescreen-background-color: #010080;
+  --xp-bluescreen-color: #F4FFF8;
 }

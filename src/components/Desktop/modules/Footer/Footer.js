@@ -63,14 +63,14 @@ function Footer() {
               </div>
             </div>
             <div id='nav-buttons-container'>
-              <div id='nav-button-container'>
+              <a href='./Bluescreen' id='nav-button-container'>
                 <img id='nav-button' src={logOff} alt='womp womp'/>
                 <div id='nav-button-text'>Log Off</div>
-              </div>
-              <div id='nav-button-container'>
+              </a>
+              <a href='./Bluescreen' id='nav-button-container'>
                 <img id='nav-button' src={shutdown} alt='womp womp'/>
                 <div id='nav-button-text'>Turn Off</div>
-              </div>
+              </a>
             </div>
           </div>
         )

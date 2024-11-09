@@ -11,6 +11,7 @@ function HTML() {
     <Tab icon={html} title={"Hypertext Markup Language (HTML)"}>
         {/* CODE HERE */}
         {/* THIS IS WHERE HTML GOES */}
+        <p>Write your html tutorial here. This is basically your 'main' tag</p>
     </Tab>
   )
 }
