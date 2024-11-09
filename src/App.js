@@ -9,6 +9,7 @@ import JS from './components/Desktop/JS/JS.js';
 import CSS from './components/Desktop/CSS/CSS.js';
 import HTML from './components/Desktop/HTML/HTML.js';
 import Bluescreen from './components/Desktop/Bluescreen/Bluescreen.js';
+import Credit from './components/Desktop/Credit/Credit.js';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/JS' element={<JS />} />
         <Route path='/PYTHON' element={<Python />} />
         <Route path='/Bluescreen' element={<Bluescreen />} />
+        <Route path='/Credit' element={<Credit />} />
       </Routes>
     </Router>
   );
@@ -44,12 +46,13 @@ function TitleUpdater() {
       '/REACT': 'REACT',
       '/JS': 'JavaScript',
       '/PYTHON': 'Python',
-      '/Bluescreen': 'Bluescreen'
+      '/Bluescreen': 'Bluescreen',
+      '/Credit': 'Credit'
     };
 
     // Get the title based on the current path
     const title = titleMap[location.pathname];
-    if (title === 'Home' || title === 'Landing' || title == 'Bluescreen') {
+    if (title === 'Home' || title === 'Landing' || title == 'Bluescreen' || title == 'Credit') {
       document.title = title;
     } else {
       document.title = `Tutorial: ${title}`; // This is where we change the title
