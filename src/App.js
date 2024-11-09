@@ -8,6 +8,7 @@ import REACTJS from './components/Desktop/ReactJS/ReactJS.js';
 import JS from './components/Desktop/JS/JS.js';
 import CSS from './components/Desktop/CSS/CSS.js';
 import HTML from './components/Desktop/HTML/HTML.js';
+import Bluescreen from './components/Desktop/Bluescreen/Bluescreen.js';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/REACT' element={<REACTJS />} />
         <Route path='/JS' element={<JS />} />
         <Route path='/PYTHON' element={<Python />} />
+        <Route path='/Bluescreen' element={<Bluescreen />} />
       </Routes>
     </Router>
   );
@@ -42,11 +44,12 @@ function TitleUpdater() {
       '/REACT': 'REACT',
       '/JS': 'JavaScript',
       '/PYTHON': 'Python',
+      '/Bluescreen': 'Bluescreen'
     };
 
     // Get the title based on the current path
     const title = titleMap[location.pathname];
-    if (title === 'Home' || title === 'Landing') {
+    if (title === 'Home' || title === 'Landing' || title == 'Bluescreen') {
       document.title = title;
     } else {
       document.title = `Tutorial: ${title}`; // This is where we change the title
