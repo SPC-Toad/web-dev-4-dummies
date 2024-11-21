@@ -1,0 +1,31 @@
+@import '../../styles/styles.css';
+
+
+:root {
+    /* you can add your variable here */
+   
+}
+
+#python-container{
+    background-color: antiquewhite;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 92vh;
+}
+
+#python-code-container,
+#python-text,
+#python-list-container
+{
+    width: 60%;
+}
+
+#python-list-container {
+    padding-left: 2rem;
+}
+
+#python-list-item {}
+
