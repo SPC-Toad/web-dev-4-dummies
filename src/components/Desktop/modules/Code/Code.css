@@ -22,8 +22,13 @@
     height: 3vh;
 }
 
+#code-header-description {
+    color: var(--xp-tab-text-color);
+}
+
 
 #code-content {
     display: flex;
     align-content: center;
+    color: var(--xp-tab-text-color);
 }
