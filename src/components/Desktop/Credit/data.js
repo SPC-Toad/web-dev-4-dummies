@@ -55,22 +55,62 @@ const data = [
         license: "Flaticon Terms of Use", 
         license_url: "https://www.flaticon.com/terms-of-use" 
     },
-    // {
-    //     subject: "", 
-    //     subject_url: "", 
-    //     author: "", 
-    //     author_url: "", 
-    //     license: "", 
-    //     license_url: "" 
-    // },
-    // {
-    //     subject: "", 
-    //     subject_url: "", 
-    //     author: "", 
-    //     author_url: "", 
-    //     license: "", 
-    //     license_url: "" 
-    // },
+    {
+        subject: "Textured-grass-field icon", 
+        subject_url: "https://www.freepik.com/free-vector/seamless-green-grass-pattern_13187581.htm#fromView=search&page=1&position=4&uuid=7319ba98-a4ce-4739-9bb8-7f461c410f87", 
+        author: "macrovector", 
+        author_url: "https://www.freepik.com/author/macrovector", 
+        license: "Freepik Terms of use", 
+        license_url: "https://www.flaticon.com/terms-of-use" 
+    },
+
+   {
+        subject: "xp-background", 
+        subject_url: "https://en.wikipedia.org/wiki/Bliss_%28photograph%29#/media/File:Bliss_(Windows_XP).png", 
+        author: "Charles O'Rear", 
+        author_url: "https://en.wikipedia.org/wiki/Charles_O%27Rear", 
+        license: "Wikipedia Terms of use", 
+        license_url: "https://en.wikipedia.org/wiki/Wikipedia:Terms_of_use" 
+    },
+
+    {
+        subject: "xp-logo-no-word", 
+        subject_url: "https://www.citypng.com/photo/26324/hd-windows-xp-logo-icon-sign-png",
+        author: "CityPNG",
+        author_url: "https://www.citypng.com/", 
+        license: "CityPNG copyright-policy", 
+        license_url: "https://www.citypng.com/page/copyright-policy" 
+    },
+
+    {
+        subject: "xp-logo", 
+        subject_url: "https://www.pngegg.com/en/png-dcmbm#goog_rewarded",
+        author: "PNGEGG",
+        author_url: "https://www.pngegg.com/", 
+        license: "PNGEGG Terms of Use", 
+        license_url: "https://www.pngegg.com/tos" 
+    },
+
+    {
+        subject: "xp-logoff", 
+        subject_url: "https://www.pngegg.com/en/png-znges#goog_rewarded",
+        author: "PNGEGG",
+        author_url: "https://www.pngegg.com/", 
+        license: "PNGEGG Terms of Use", 
+        license_url: "https://www.pngegg.com/tos" 
+    },
+
+    {
+        subject: "xp-shutoff", 
+        subject_url: "https://www.iconarchive.com/show/sleek-xp-software-icons-by-hopstarter/Windows-Turn-Off-icon.html",
+        author: "hopstarter",
+        author_url: "https://www.iconarchive.com/artist/hopstarter.html", 
+        license: "Creative Commons", 
+        license_url: "https://creativecommons.org/licenses/by-nc-nd/4.0/" 
+    },
+
+
+
 
 ]
 
