@@ -4,24 +4,32 @@ import Tab from '../modules/Tab/Tab';
 // Importing CSS This is same as <style> or <link href='style.css'>
 import './ReactJS.css';
 
-import ReactJS from '../../assets/reactjs.png'
+import Reactjs from '../../assets/reactjs.png'
 
 import Code from '../modules/Code/Code';
 
-function HTML() {
+import codeData from './reactData';
+
+function ReactJS() {
   return (
-    <Tab icon={ReactJS} title={"Hypertext Markup Language (ReactJS)"}>
-        <div id='text'>
-            <Code 
-                type={"Announcement.txt"}
-                code={<pre>This can be used as a reference.<br/>
-                It is gonna take sometime since I am busy this week.<br/>
-                I will probably work on this somewhere Nov 10th.<br/></pre>}
-            />
-        </div>
+    <Tab icon={Reactjs} title={"React JS"}>
+      <div id="c-container">
+        <div id="c-title">React JS</div>
+        <ol id="c-ol-container">
+          {codeData.map((item, index) => (
+            <li key={index} id="c-li-container">
+              <div id="c-li-text">{item.topic}</div>
+              <Code 
+                type={item.type} 
+                code={item.code}
+                shadow={item.shadow}
+              />
+            </li>
+          ))}
+        </ol>
+      </div>
     </Tab>
   )
 }
 
-export default HTML
-
+export default ReactJS

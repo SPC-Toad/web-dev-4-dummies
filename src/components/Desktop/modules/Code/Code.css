@@ -28,7 +28,10 @@
 
 
 #code-content {
-    display: flex;
-    align-content: center;
+    width: 100%;
     color: var(--xp-tab-text-color);
+}
+
+#code-box {
+    padding-left: var(--spacing-lg);
 }

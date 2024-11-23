@@ -37,14 +37,14 @@
     display: flex;
     justify-content: space-between;
     background-color: var(--xp-tab-top-tab-color);
-    border-radius: 10px 10px 0 0;
+    border-radius: 5px 5px 0 0;
     position: fixed;
     z-index: 999;
 }
 
 #tab-header-detatil {
     display: flex;
-    align-items: center;
+    /* align-items: center; LOL looks better without*/ 
     margin-left: var(--spacing-sm);
     color: var(--xp-tab-text-color);
 }
@@ -57,6 +57,7 @@
 }
 
 #tab-title-text {
+    font-size: var(--font-size-md);
     margin-bottom: var(--spacing-xs);
 }
 

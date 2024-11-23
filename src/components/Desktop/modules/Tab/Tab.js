@@ -13,8 +13,8 @@ function Tab({ icon ,  title , children }) {
               <div id='tab-title-text'>{title}</div>
             </div>
             <div id="tab-header-button-container">
-              <div class="tab-button" id="minimize-button"></div>
-              <div class="tab-button" id="maximize-button"></div>
+              <a href='/home'><div class="tab-button" id="minimize-button"></div></a>
+              <a href='/home'><div class="tab-button" id="maximize-button"></div></a>
               <a href='/home'><div class="tab-button" id="close-button"></div></a>
             </div>
           </div>

@@ -25,22 +25,22 @@ function Home() {
             <img id='logo' src={c} alt='womp womp'/>
             <div id='program-title'>C Lang</div>
           </a>
-          <a href='./HTML' id='home-program-container'>
+          {/* <a href='./HTML' id='home-program-container'>
             <img id='logo' src={html} alt='womp womp'/>
             <div id='program-title'>HTML</div>
-          </a>
-          <a href='./CSS' id='home-program-container'>
+          </a> */}
+          {/* <a href='./CSS' id='home-program-container'>
             <img id='logo' src={css} alt='womp womp'/>
             <div id='program-title'>CSS</div>
-          </a>
+          </a> */}
           <a href='./REACT' id='home-program-container'>
             <img id='logo' src={react} alt='womp womp'/>
             <div id='program-title'>React JS</div>
           </a>
-          <a href='./JS' id='home-program-container'>
+          {/* <a href='./JS' id='home-program-container'>
             <img id='logo' src={js} alt='womp womp'/>
             <div id='program-title'>JS</div>
-          </a>
+          </a> */}
           <a href='./PYTHON' id='home-program-container'>
             <img id='logo' src={python} alt='womp womp'/>
             <div id='program-title'>Python</div>
