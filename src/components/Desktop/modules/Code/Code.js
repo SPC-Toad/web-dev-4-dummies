@@ -8,7 +8,7 @@ function Code({type, code, shadow}) {
             <div id='code-header-description'>{type}</div>
         </div>
         <code id='code-content'>
-            <pre>{code}</pre>
+            <pre id='code-box' style={{ whiteSpace: 'pre-wrap' }}>{code}</pre>
         </code>
     </div>
   )

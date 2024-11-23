@@ -32,3 +32,9 @@
 #c-li-text {
     margin-bottom: 3vh;
 }
+
+@media only screen and (max-width: 1280px) {
+    #c-ol-container {
+        width: 80%;
+    }
+}

@@ -1,0 +1,26 @@
+@import '../../styles/styles.css';
+
+#font-test-xs {
+    font-size: var(--font-size-xs);
+}
+
+#font-test-sm {
+    font-size: var(--font-size-sm);
+}
+
+#font-test-md {
+    font-size: var(--font-size-md);
+}
+
+#font-test-lg {
+    font-size: var(--font-size-lg);
+}
+
+#font-test-xl {
+    font-size: var(--font-size-xl);
+}
+
+#font-test-2xl {
+    font-size: var(--font-size-2xl);
+}
+

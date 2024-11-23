@@ -8,9 +8,10 @@ import logOff from '../../../assets/xp-logoff.png'
 import shutdown from '../../../assets/xp-shutoff.png'
 
 import c from '../../../assets/c.png'
-import html from '../../../assets/html.png'
-import css from '../../../assets/css.png'
-import js from '../../../assets/js.png'
+// import html from '../../../assets/html.png'
+// import css from '../../../assets/css.png'
+// import js from '../../../assets/js.png'
+import reactjs from '../../../assets/reactjs.png'
 import python from '../../../assets/python.png'
 
 function Footer() {
@@ -38,17 +39,21 @@ function Footer() {
             <hr id='nav-divider' />
             <div id='nav-body-container'>
               <div id='nav-body-left-container'>
-                <a href='./HTML' id='nav-body-item-container'>
+                {/* <a href='./HTML' id='nav-body-item-container'>
                   <img id='nav-body-item-icon' src={html} alt='womp womp'/>
                   <div id='nav-body-item-title'>Hypertext Markup Language</div>
                 </a>
                 <a href='./CSS' id='nav-body-item-container'>
                   <img id='nav-body-item-icon' src={css} alt='womp womp'/>
                   <div id='nav-body-item-title'>Cascading Style Sheets</div>
-                </a>
-                <a href='./JS' id='nav-body-item-container'>
+                </a> */}
+                {/* <a href='./JS' id='nav-body-item-container'>
                   <img id='nav-body-item-icon' src={js} alt='womp womp'/>
-                  <div id='nav-body-item-title'>JavaScript</div>
+                  <div id='nav-body-item-title'>JS</div>
+                </a> */}
+                <a href='./REACT' id='nav-body-item-container'>
+                  <img id='nav-body-item-icon' src={reactjs} alt='womp womp'/>
+                  <div id='nav-body-item-title'>REACT</div>
                 </a>
               </div>
               <div id='nav-body-right-container'>
@@ -58,7 +63,7 @@ function Footer() {
                 </a>
                 <a href='./C' id='nav-body-item-container'>
                   <img id='nav-body-item-icon' src={c} alt='womp womp'/>
-                  <div id='nav-body-item-title'>C language</div>
+                  <div id='nav-body-item-title'>C</div>
                 </a>
               </div>
             </div>
