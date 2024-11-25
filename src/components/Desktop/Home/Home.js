@@ -4,6 +4,7 @@ import './Home.css'
 //image
 import background from '../../assets/xp-background.png'
 import c from '../../assets/c.png'
+import credit from '../../assets/credit.png'
 import html from '../../assets/html.png'
 import css from '../../assets/css.png'
 import react from '../../assets/reactjs.png'
@@ -25,25 +26,17 @@ function Home() {
             <img id='logo' src={c} alt='womp womp'/>
             <div id='program-title'>C Lang</div>
           </a>
-          {/* <a href='./HTML' id='home-program-container'>
-            <img id='logo' src={html} alt='womp womp'/>
-            <div id='program-title'>HTML</div>
-          </a> */}
-          {/* <a href='./CSS' id='home-program-container'>
-            <img id='logo' src={css} alt='womp womp'/>
-            <div id='program-title'>CSS</div>
-          </a> */}
           <a href='./REACT' id='home-program-container'>
             <img id='logo' src={react} alt='womp womp'/>
             <div id='program-title'>React JS</div>
           </a>
-          {/* <a href='./JS' id='home-program-container'>
-            <img id='logo' src={js} alt='womp womp'/>
-            <div id='program-title'>JS</div>
-          </a> */}
           <a href='./PYTHON' id='home-program-container'>
             <img id='logo' src={python} alt='womp womp'/>
             <div id='program-title'>Python</div>
+          </a>
+          <a href='./Credit' id='home-program-container'>
+            <img id='logo' src={credit} alt='womp womp'/>
+            <div id='program-title'>Credit</div>
           </a>
         </div>
       </div>

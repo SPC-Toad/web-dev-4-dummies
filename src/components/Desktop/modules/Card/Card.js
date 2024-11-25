@@ -18,14 +18,3 @@ function Card({ subject, subject_url, author, author_url, license, license_url }
 }
 
 export default Card
-
-
-
-{/* <div>
-        <div>The image of a</div>
-        <a href={subject_url}>{subject}</a>
-        <div> is provided by </div>
-        <a href={author_url}>{author}</a>
-        <div> under </div>
-        <a href={license_url}>{license}</a>
-    </div> */}

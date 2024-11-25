@@ -15,13 +15,17 @@
     align-items: center;
 }
 
-#c-title {}
+#c-title {
+    margin-top: var(--spacing-xl);
+    font-size: var(--font-size-2xl);
+}
 
 #c-ol-container {
     width: 50%;
     height: fit-content;
     justify-content: space-evenly;
     align-items: center;
+    font-size: var(--font-size-md);
 }
 
 #c-li-container {
@@ -31,6 +35,7 @@
 
 #c-li-text {
     margin-bottom: 3vh;
+    font-size: var(--font-size-lg);
 }
 
 @media only screen and (max-width: 1280px) {
