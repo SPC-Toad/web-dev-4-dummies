@@ -27,6 +27,12 @@
     padding-left: 2rem;
 }
 
-#python-list-item {}
+
+
+@media only screen and (max-width: 1280px) {
+    #python-code-container {
+        width: 80%;
+    }
+}
 
  
