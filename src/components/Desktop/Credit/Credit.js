@@ -38,8 +38,10 @@ function Credit() {
             author_url={source_data[currIndex].author_url} 
             license={source_data[currIndex].license} 
             license_url={source_data[currIndex].license_url}/>
-        <div onClick={handlePrev} style={{backgroundColor: 'white'}}>Prev</div>
-        <div onClick={handleNext} style={{backgroundColor: 'white'}}>Next</div>
+            <div id='credit-button-container'>
+              <div onClick={handlePrev} id='credit-button' style={{backgroundColor: 'white'}}>Prev</div>
+              <div onClick={handleNext} id='credit-button' style={{backgroundColor: 'white'}}>Next</div>
+            </div>
       </div>
     </Tab>
   )
