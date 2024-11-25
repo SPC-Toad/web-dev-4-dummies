@@ -8,6 +8,7 @@ import logOff from '../../../assets/xp-logoff.png'
 import shutdown from '../../../assets/xp-shutoff.png'
 
 import c from '../../../assets/c.png'
+import credit from '../../../assets/credit.png'
 // import html from '../../../assets/html.png'
 // import css from '../../../assets/css.png'
 // import js from '../../../assets/js.png'
@@ -39,18 +40,10 @@ function Footer() {
             <hr id='nav-divider' />
             <div id='nav-body-container'>
               <div id='nav-body-left-container'>
-                {/* <a href='./HTML' id='nav-body-item-container'>
-                  <img id='nav-body-item-icon' src={html} alt='womp womp'/>
-                  <div id='nav-body-item-title'>Hypertext Markup Language</div>
+                <a href='./Credit' id='nav-body-item-container'>
+                  <img id='nav-body-item-icon' src={credit} alt='womp womp'/>
+                  <div id='nav-body-item-title'>Credit</div>
                 </a>
-                <a href='./CSS' id='nav-body-item-container'>
-                  <img id='nav-body-item-icon' src={css} alt='womp womp'/>
-                  <div id='nav-body-item-title'>Cascading Style Sheets</div>
-                </a> */}
-                {/* <a href='./JS' id='nav-body-item-container'>
-                  <img id='nav-body-item-icon' src={js} alt='womp womp'/>
-                  <div id='nav-body-item-title'>JS</div>
-                </a> */}
                 <a href='./REACT' id='nav-body-item-container'>
                   <img id='nav-body-item-icon' src={reactjs} alt='womp womp'/>
                   <div id='nav-body-item-title'>REACT</div>
@@ -84,6 +77,7 @@ function Footer() {
         <img id='footer-windows-logo' src={xpLogo} alt='womp-womp'/>
         <div id='start-text'>start</div>
       </div>
+      <a href="./Credit" id="footer-credit"><div>Rights reserved: &#169;Credits</div></a>
       <div id='clock-container'>
         <div id='clock'>{time.toLocaleTimeString()}</div>
       </div>

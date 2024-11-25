@@ -19,7 +19,7 @@
     font-family: "VT323", monospace;
     font-weight: var(--font-weight-normal);
     font-style: normal;
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-xl);
     color: var(--xp-bluescreen-color);
     letter-spacing: var(--letter-spacing-sm);
     word-spacing: var(--letter-spacing-lg);

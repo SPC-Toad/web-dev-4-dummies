@@ -1,5 +1,12 @@
 @import '../../styles/styles.css';
 
+:root {
+    --icon-size-min: 2rem;
+    --icon-size-max: 4rem;
+
+    --icon-size: clamp(var(--icon-size-min), calc(var(--icon-size-min) + 4vw),var(--icon-size-max));
+}
+
 #home-container {
     width: 100%;
     height: 100vh;
@@ -31,8 +38,8 @@
     z-index: 99;
     position: relative;
     display: flex;
-    align-items: end;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 #home-program-container {
@@ -48,10 +55,11 @@
     text-decoration: none;
     color: aliceblue;
     text-align: center;
+    font-size: var(--font-size-md);
 }
 
 #logo {
-    width: 4rem;
-    height: 4rem;
+    width: var(--icon-size);
+    height: var(--icon-size);
     margin-bottom: 0.5rem;
 }

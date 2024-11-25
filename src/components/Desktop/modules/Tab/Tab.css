@@ -138,4 +138,5 @@
 
 #tab-content-container {
     margin-top: var(--xp-window-tab-header-height);
+    position: relative;
 }

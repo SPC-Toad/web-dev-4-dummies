@@ -113,8 +113,8 @@ function C() {
           {codeData.map((item, index) => (
             <li key={index} id="c-li-container">
               <div id="c-li-text">{item.topic}</div>
-              <Code 
-                type={item.type} 
+              <Code
+                type={item.type}
                 code={item.code}
                 shadow={item.shadow}
               />
