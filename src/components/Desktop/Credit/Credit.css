@@ -3,6 +3,20 @@
     height: 92vh;
     background-color: black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#credit-button-container {
+    /* This is where the two button containers are going to be in */
+    display: flex;
+    /* Card width is 30% */
+    width: 30%; 
+    justify-content: end;
+    align-items: center;
+}
+
+#credit-button {
+    /* This is where you change the credit button */
 }
