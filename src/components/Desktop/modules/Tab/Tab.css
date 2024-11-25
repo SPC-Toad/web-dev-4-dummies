@@ -44,7 +44,7 @@
 
 #tab-header-detatil {
     display: flex;
-    /* align-items: center; LOL looks better without*/ 
+    align-items: center;
     margin-left: var(--spacing-sm);
     color: var(--xp-tab-text-color);
 }

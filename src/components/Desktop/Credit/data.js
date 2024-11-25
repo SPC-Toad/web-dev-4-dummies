@@ -109,6 +109,24 @@ const data = [
         license_url: "https://creativecommons.org/licenses/by-nc-nd/4.0/" 
     },
 
+    {
+        subject: "pepewindowsxp", 
+        subject_url: "https://www.reddit.com/r/pepethefrog/comments/nnfa3p/really_wanted_widepeepohappy_on_the_windows_xp/",
+        author: "lucaabucaa ",
+        author_url: "https://www.reddit.com/user/lucaabucaa/", 
+        license: "Reddit User Agreement", 
+        license_url: "https://redditinc.com/policies/user-agreement-september-25-2023" 
+    },
+
+    {
+        subject: "pepesataro", 
+        subject_url: "https://www.reddit.com/r/pepethefrog/comments/nnfa3p/really_wanted_widepeepohappy_on_the_windows_xp/",
+        author: "JuJutsuKaisen",
+        author_url: "https://www.reddit.com/r/JuJutsuKaisen/", 
+        license: "Reddit User Agreement", 
+        license_url: "https://redditinc.com/policies/user-agreement-september-25-2023" 
+    },
+
 
 
 

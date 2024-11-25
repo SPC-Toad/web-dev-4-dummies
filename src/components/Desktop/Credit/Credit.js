@@ -3,7 +3,10 @@ import Tab from '../modules/Tab/Tab'
 import Card from '../modules/Card/Card'
 import credit from '../../assets/credit.png'
 import './Credit.css'
-
+import pepexp from '../../assets/pepewindowsxp.jpg';
+import pepejjk from '../../assets/pepesataro.jpg';
+import piazzacat from '../../assets/piazzacat.jpg';
+import piazzamull from '../../assets/piazzamull.jpg';
 import source_data from './data.js'
 
 function Credit() {
@@ -30,6 +33,7 @@ function Credit() {
 
   return (
     <Tab icon={credit} title={"Credit Page!"}>
+      <img src={pepejjk} alt="pepewindow" id="credit-background"/>
       <div id='credit-container'>
         <Card 
             subject={source_data[currIndex].subject} 
@@ -39,8 +43,8 @@ function Credit() {
             license={source_data[currIndex].license} 
             license_url={source_data[currIndex].license_url}/>
             <div id='credit-button-container'>
-              <div onClick={handlePrev} id='credit-button' style={{backgroundColor: 'white'}}>Prev</div>
-              <div onClick={handleNext} id='credit-button' style={{backgroundColor: 'white'}}>Next</div>
+              <div onClick={handlePrev} id='credit-button' >Prev </div>
+              <div onClick={handleNext} id='credit-button' > Next</div>
             </div>
       </div>
     </Tab>
