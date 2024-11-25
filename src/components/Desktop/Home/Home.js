@@ -5,11 +5,11 @@ import './Home.css'
 import background from '../../assets/xp-background.png'
 import c from '../../assets/c.png'
 import credit from '../../assets/credit.png'
-import html from '../../assets/html.png'
-import css from '../../assets/css.png'
 import react from '../../assets/reactjs.png'
-import js from '../../assets/js.png'
 import python from '../../assets/python.png'
+// import html from '../../assets/html.png'
+// import css from '../../assets/css.png'
+// import js from '../../assets/js.png'
 
 
 // components
