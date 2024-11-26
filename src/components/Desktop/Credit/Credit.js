@@ -5,8 +5,6 @@ import credit from '../../assets/credit.png'
 import './Credit.css'
 import pepexp from '../../assets/pepewindowsxp.jpg';
 import pepejjk from '../../assets/pepesataro.jpg';
-import piazzacat from '../../assets/piazzacat.jpg';
-import piazzamull from '../../assets/piazzamull.jpg';
 import source_data from './data.js'
 
 function Credit() {
@@ -16,8 +14,6 @@ function Credit() {
   const gallery = [
     pepexp,
     pepejjk,
-    piazzacat,
-    piazzamull
   ]
 
   const handlePrev = () => {

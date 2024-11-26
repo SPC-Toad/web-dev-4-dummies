@@ -13,9 +13,9 @@ function Tab({ icon ,  title , children }) {
               <div id='tab-title-text'>{title}</div>
             </div>
             <div id="tab-header-button-container">
-              <a href='/home'><div class="tab-button" id="minimize-button"></div></a>
-              <a href='/home'><div class="tab-button" id="maximize-button"></div></a>
-              <a href='/home'><div class="tab-button" id="close-button"></div></a>
+              <a href='/home'><div className="tab-button" id="minimize-button"></div></a>
+              <a href='/home'><div className="tab-button" id="maximize-button"></div></a>
+              <a href='/home'><div className="tab-button" id="close-button"></div></a>
             </div>
           </div>
           <div id='tab-content-container'>{children}</div>
