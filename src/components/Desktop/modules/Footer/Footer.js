@@ -40,32 +40,32 @@ function Footer() {
             <hr id='nav-divider' />
             <div id='nav-body-container'>
               <div id='nav-body-left-container'>
-                <a href='./Credit' id='nav-body-item-container'>
+                <a href='./#/Credit' id='nav-body-item-container'>
                   <img id='nav-body-item-icon' src={credit} alt='womp womp'/>
                   <div id='nav-body-item-title'>Credit</div>
                 </a>
-                <a href='./REACT' id='nav-body-item-container'>
+                <a href='./#/REACT' id='nav-body-item-container'>
                   <img id='nav-body-item-icon' src={reactjs} alt='womp womp'/>
                   <div id='nav-body-item-title'>REACT</div>
                 </a>
               </div>
               <div id='nav-body-right-container'>
-                <a href='./PYTHON' id='nav-body-item-container'>
+                <a href='./#/PYTHON' id='nav-body-item-container'>
                   <img id='nav-body-item-icon' src={python} alt='womp womp'/>
                   <div id='nav-body-item-title'>Python</div>
                 </a>
-                <a href='./C' id='nav-body-item-container'>
+                <a href='./#/C' id='nav-body-item-container'>
                   <img id='nav-body-item-icon' src={c} alt='womp womp'/>
                   <div id='nav-body-item-title'>C</div>
                 </a>
               </div>
             </div>
             <div id='nav-buttons-container'>
-              <a href='./Bluescreen' id='nav-button-container'>
+              <a href='./#/Bluescreen' id='nav-button-container'>
                 <img id='nav-button' src={logOff} alt='womp womp'/>
                 <div id='nav-button-text'>Log Off</div>
               </a>
-              <a href='./Bluescreen' id='nav-button-container'>
+              <a href='./#/Bluescreen' id='nav-button-container'>
                 <img id='nav-button' src={shutdown} alt='womp womp'/>
                 <div id='nav-button-text'>Turn Off</div>
               </a>
@@ -77,7 +77,7 @@ function Footer() {
         <img id='footer-windows-logo' src={xpLogo} alt='womp-womp'/>
         <div id='start-text'>start</div>
       </div>
-      <a href="./Credit" id="footer-credit"><div>Rights reserved: &#169;Credits</div></a>
+      <a href="./#/Credit" id="footer-credit"><div>Rights reserved: &#169;Credits</div></a>
       <div id='clock-container'>
         <div id='clock'>{time.toLocaleTimeString()}</div>
       </div>

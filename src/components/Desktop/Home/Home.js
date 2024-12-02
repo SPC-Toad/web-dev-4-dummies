@@ -22,19 +22,19 @@ function Home() {
         {/* This is for the background image */}
         <img src={background} alt='womp womp' id='background'/> 
         <div id='home-logo-container'>
-          <a href='./C' id='home-program-container'>
+          <a href='./#/C' id='home-program-container'>
             <img id='logo' src={c} alt='womp womp'/>
             <div id='program-title'>C Lang</div>
           </a>
-          <a href='./REACT' id='home-program-container'>
+          <a href='./#/REACT' id='home-program-container'>
             <img id='logo' src={react} alt='womp womp'/>
             <div id='program-title'>React JS</div>
           </a>
-          <a href='./PYTHON' id='home-program-container'>
+          <a href='./#/PYTHON' id='home-program-container'>
             <img id='logo' src={python} alt='womp womp'/>
             <div id='program-title'>Python</div>
           </a>
-          <a href='./Credit' id='home-program-container'>
+          <a href='./#/Credit' id='home-program-container'>
             <img id='logo' src={credit} alt='womp womp'/>
             <div id='program-title'>Credit</div>
           </a>
