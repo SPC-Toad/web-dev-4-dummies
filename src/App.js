@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import Home from './components/Desktop/Home/Home.js';
 import Landing from './components/Desktop/Landing/Landing.js';
@@ -52,7 +52,7 @@ function TitleUpdater() {
 
     // Get the title based on the current path
     const title = titleMap[location.pathname];
-    if (title === 'Home' || title === 'Landing' || title == 'Bluescreen' || title == 'Credit') {
+    if (title === 'Home' || title === 'Landing' || title === 'Bluescreen' || title === 'Credit') {
       document.title = title;
     } else {
       document.title = `Tutorial: ${title}`; // This is where we change the title
