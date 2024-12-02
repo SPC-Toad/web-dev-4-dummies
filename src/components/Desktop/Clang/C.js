@@ -20,7 +20,7 @@ const codeData = [
       }
     `,
     type: "C Language",
-    shadow: "0px 4px 10px rgba(0, 0, 0, 0.5)"
+    shadow: "0px 4px 10px rgba(255, 0, 0, 0.5)"
   },
   {
     topic: "Variables: C has several data types: int, float, char, etc.",
@@ -30,7 +30,7 @@ const codeData = [
       char initial = 'A';
     `,
     type: "C Language",
-    shadow: "0px 4px 10px rgba(0, 0, 0, 0.5)"
+    shadow: "0px 4px 10px rgba(255, 0, 0, 0.5)"
   },
   {
     topic: "Control Statements: Use if-else and loops for control flow.",
@@ -47,7 +47,7 @@ const codeData = [
       }
     `,
     type: "C Language",
-    shadow: "0px 4px 10px rgba(0, 0, 0, 0.5)"
+    shadow: "0px 4px 10px rgba(255, 0, 0, 0.5)"
   },
   {
     topic: "Functions: Define reusable blocks of code.",
@@ -59,7 +59,7 @@ const codeData = [
       int sum = add(5, 3);  // sum will be 8
     `,
     type: "C Language",
-    shadow: "0px 4px 10px rgba(0, 0, 0, 0.5)"
+    shadow: "0px 4px 10px rgba(255, 0, 0, 0.5)"
   },
   {
     topic: "Pointers: Pointers store memory addresses, adding flexibility.",
@@ -68,7 +68,7 @@ const codeData = [
       int *p = &num;  // p now holds the address of num
     `,
     type: "C Language",
-    shadow: "0px 4px 10px rgba(0, 0, 0, 0.5)"
+    shadow: "0px 4px 10px rgba(255, 0, 0, 0.5)"
   },
   {
     topic: "Arrays: Store collections of data in a single variable.",
@@ -76,7 +76,7 @@ const codeData = [
       int numbers[5] = {1, 2, 3, 4, 5};
     `,
     type: "C Language",
-    shadow: "0px 4px 10px rgba(0, 0, 0, 0.5)"
+    shadow: "0px 4px 10px rgba(255, 0, 0, 0.5)"
   },
   {
     topic: "Structures: Used to group different data types.",
@@ -89,7 +89,7 @@ const codeData = [
       struct Person person1 = {"Alice", 30};
     `,
     type: "C Language",
-    shadow: "0px 4px 10px rgba(0, 0, 0, 0.5)"
+    shadow: "0px 4px 10px rgba(255, 0, 0, 0.5)"
   },
   {
     topic: "Compiling and Running",
