@@ -3,7 +3,7 @@ import './Code.css'
 
 function Code({type, code, shadow}) {
   return (
-    <div id='code-container' style={{boxShadow: `${shadow}`}}>
+    <div id='code-container' style={{boxShadow: `${shadow}`}} onClick={() => {navigator.clipboard.writeText(code)}}>
         <div id='code-header'>
             <div id='code-header-description'>{type}</div>
         </div>
