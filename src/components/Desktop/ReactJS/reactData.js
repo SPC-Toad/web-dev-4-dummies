@@ -80,6 +80,37 @@ const listItems = numbers.map((number) =>
       shadow: "0px 4px 10px rgba(255, 0, 0, 0.5)"
     },
     {
+        topic: "React Hooks: useEffect",
+        code: `
+  // Using the useEffect Hook
+  import React, { useState, useEffect } from 'react';
+  
+  function Example() {
+      const [count, setCount] = useState(0);
+  
+      // Similar to componentDidMount and componentDidUpdate
+      useEffect(() => {
+          // Update the document title using the browser API
+          document.title = \`You clicked \${count} times\`;
+      });
+  
+      return (
+          <div>
+          <p>You clicked {count} times</p>
+          <button onClick={() => setCount(count + 1)}>
+              Click me
+          </button>
+          </div>
+      );
+  }
+  
+  // Explanation:
+  // The useEffect hook lets you perform side effects in functional components.
+        `,
+        type: "JavaScript",
+        shadow: "0px 4px 10px rgba(255, 0, 0, 0.5)"
+    },
+    {
       topic: "React Hooks: useState",
       code: `
 // Using the useState Hook
@@ -101,37 +132,6 @@ function Example() {
 
 // Explanation:
 // The useState hook lets you add state to functional components.
-      `,
-      type: "JavaScript",
-      shadow: "0px 4px 10px rgba(255, 0, 0, 0.5)"
-    },
-    {
-      topic: "React Hooks: useEffect",
-      code: `
-// Using the useEffect Hook
-import React, { useState, useEffect } from 'react';
-
-function Example() {
-    const [count, setCount] = useState(0);
-
-    // Similar to componentDidMount and componentDidUpdate
-    useEffect(() => {
-        // Update the document title using the browser API
-        document.title = \`You clicked \${count} times\`;
-    });
-
-    return (
-        <div>
-        <p>You clicked {count} times</p>
-        <button onClick={() => setCount(count + 1)}>
-            Click me
-        </button>
-        </div>
-    );
-}
-
-// Explanation:
-// The useEffect hook lets you perform side effects in functional components.
       `,
       type: "JavaScript",
       shadow: "0px 4px 10px rgba(255, 0, 0, 0.5)"

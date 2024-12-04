@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Tab from '../modules/Tab/Tab';
 
 // Importing CSS This is same as <style> or <link href='style.css'>
@@ -11,6 +11,8 @@ import Code from '../modules/Code/Code';
 import codeData from './reactData';
 
 function ReactJS() {
+  const [counter, setCounter] = useState(0);
+
   return (
     <Tab icon={Reactjs} title={"React JS"}>
       <div id="c-container">
@@ -27,6 +29,12 @@ function ReactJS() {
             </li>
           ))}
         </ol>
+        <div id='react-js-example-container'>
+          <h3 id="c-title">Example / Demo </h3>
+          <div id='react-js-text'>You clicked {counter} times</div>
+          <div id='react-js-text'>{counter >= 10 && (<div>Good job LOL, you can stop clicking</div>)}</div>
+          <button id='react-js-example-button' onClick={() => setCounter(counter + 1)}>+</button>
+        </div>
       </div>
     </Tab>
   )
