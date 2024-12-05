@@ -31,9 +31,12 @@ function Python() {
             data.map((key, index) => (
               <div key={index}>
                 <div id='python-code-box-title'>{key.title}</div>
+                 
+                
                 <Code 
                   type={'Console'}
                   code={key.code}
+                  shadow={key.shadow}
                 />
               </div>
             ))

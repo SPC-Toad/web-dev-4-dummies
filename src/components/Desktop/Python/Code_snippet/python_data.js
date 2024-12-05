@@ -6,7 +6,8 @@ const python_data = [
                   age = 25        # Integer
                   height = 5.9    # Float
                   is_student = True  # Boolean
-        `
+        `,
+        shadow: '0px 2px 10px rgba(255, 255, 0, 0.8)'
     },
     {
         title: "Control Flow (Conditionals and Loops)",
@@ -18,7 +19,8 @@ const python_data = [
 
           for i in range(5):
               print(i)  # Prints numbers from 0 to 4
-        `
+        `,
+        shadow: '0px 2px 10px rgba(255, 255, 0, 0.8)'
     },
     {
         title: "Loops:",
@@ -28,7 +30,8 @@ const python_data = [
               for num in numbers:
                   total += num
               print(f"The sum is: total")  # Output: The sum is: 15
-        `
+        `,
+        shadow: '0px 2px 10px rgba(255, 255, 0, 0.8)'
     },
     {
         title: "Recursion:",
@@ -40,15 +43,17 @@ const python_data = [
                   return n * factorial(n - 1)
 
           print(factorial(5))  # Output: 120 (5 * 4 * 3 * 2 * 1)
-        `
+        `,
+        shadow: '0px 2px 10px rgba(255, 255, 0, 0.8)'
     },
     {
         title: "Data Structures:",
         subtext: "Python provides built-in data structures like lists, tuples, and dictionaries:",
         code: `fruits = ["apple", "banana", "cherry"]  # List
-coordinates = (10, 20)                    # Tuple
-student = &#123;"name": "John", "age": 25&#125;    # Dictionary
-        `
+               coordinates = (10, 20)                    # Tuple
+               student = &#123;"name": "John", "age": 25&#125;    # Dictionary
+        `,
+        shadow: '0px 2px 10px rgba(255, 255, 0, 0.8)'
     },
     
 ]
