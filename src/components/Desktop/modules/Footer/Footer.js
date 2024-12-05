@@ -9,7 +9,7 @@ import shutdown from '../../../assets/xp-shutoff.png'
 
 import c from '../../../assets/c.png'
 import credit from '../../../assets/credit.png'
-// import html from '../../../assets/html.png'
+import html from '../../../assets/html.png'
 // import css from '../../../assets/css.png'
 // import js from '../../../assets/js.png'
 import reactjs from '../../../assets/reactjs.png'
@@ -40,6 +40,10 @@ function Footer() {
             <hr id='nav-divider' />
             <div id='nav-body-container'>
               <div id='nav-body-left-container'>
+                <a href='./#/HTML' id='nav-body-item-container'>
+                  <img id='nav-body-item-icon' src={html} alt='womp womp'/>
+                  <div id='nav-body-item-title'>HTML</div>
+                </a>
                 <a href='./#/Credit' id='nav-body-item-container'>
                   <img id='nav-body-item-icon' src={credit} alt='womp womp'/>
                   <div id='nav-body-item-title'>Credit</div>

@@ -7,15 +7,20 @@
 }
 
 #python-container{
-    background-color: antiquewhite;
+    background-color: black;
     display:flex ;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     min-height: 92vh;
+    color: white;
+    padding-bottom: 5rem; 
 }
 
+#python-code-box-title{
+    padding-top: 5%;
+}
 #python-code-container,
 #python-text,
 #python-list-container

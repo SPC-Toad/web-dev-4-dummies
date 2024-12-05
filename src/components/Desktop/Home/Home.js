@@ -7,7 +7,7 @@ import c from '../../assets/c.png'
 import credit from '../../assets/credit.png'
 import react from '../../assets/reactjs.png'
 import python from '../../assets/python.png'
-// import html from '../../assets/html.png'
+import html from '../../assets/html.png'
 // import css from '../../assets/css.png'
 // import js from '../../assets/js.png'
 
@@ -22,6 +22,10 @@ function Home() {
         {/* This is for the background image */}
         <img src={background} alt='womp womp' id='background'/> 
         <div id='home-logo-container'>
+          <a href='./#/HTML' id='home-program-container'>
+            <img id='logo' src={html} alt='womp womp'/>
+            <div id='program-title'>HTML</div>
+          </a>
           <a href='./#/C' id='home-program-container'>
             <img id='logo' src={c} alt='womp womp'/>
             <div id='program-title'>C Lang</div>
