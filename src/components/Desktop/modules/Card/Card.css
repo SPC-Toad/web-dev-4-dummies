@@ -2,6 +2,7 @@
 
 :root {
     --card-secondary-color: #FFFFFF;
+    --card-word-color: 	rgb(191, 64, 191);
 }
 
 #card-container {
@@ -18,7 +19,7 @@
     border-radius: 10px;
     border-width: 3px;
     border-style: solid;
-    border-color: rgba(255, 255, 255, 0.7);
+    border-color: var(--card-word-color);
     font-size: var(--font-size-lg);
 }
 
@@ -26,11 +27,11 @@
     height: 80%;
     width: 0;
     border: 0px solid transparent;
-    border-right: 2px solid var(--card-secondary-color);
+    border-right: 2px solid var(--card-word-color);
 }
 
 #card-title {
-    color: var(--card-secondary-color);
+    color: var(--card-word-color);
     text-align: end;
     transform-origin: center;
     transform: rotate(-90deg);
@@ -47,11 +48,11 @@
 }
 
 #card-content li{
-    color: var(--card-secondary-color);
+    color: var(--card-word-color);
     margin: var(--spacing-xs);
 }
 
 #card-content li a{
-    color: #FFFFFF;
+    color: var(--card-word-color);
     text-decoration: none;
 }
